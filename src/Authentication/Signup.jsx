@@ -71,13 +71,16 @@ const Signup = () => {
             />
           </div>
 
-          <div className="col-span-1 md:col-span-2 flex justify-center mt-4">
+          <div className="col-span-1 md:col-span-2 flex flex-col space-y-4 justify-center mt-4">
             <button
               type="submit"
               className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition-all duration-300"
             >
               Sign Up
             </button>
+            <p className="text-center">
+              Already have an account ? <span className="text-blue-700 underline">Login</span>{" "}
+            </p>
           </div>
         </form>
       </div>
